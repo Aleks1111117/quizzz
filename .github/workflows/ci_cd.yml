@@ -38,6 +38,3 @@ jobs:
       - name: Check migration
         run: |
 
-      - name: Run tests
-        run: |
-          python src/manage.py test flake8
